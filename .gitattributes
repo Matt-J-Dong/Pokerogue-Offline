@@ -1,0 +1,18 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+# Explicit line ending rules (optional and recommended)
+*.sh     text eol=lf
+*.py     text eol=lf
+*.json   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.md     text eol=lf
+*.js     text eol=lf
+*.ts     text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.bat    text eol=crlf
+*.cmd    text eol=crlf
+
+#Trying out Git Large File Storage!
+PokeRogue/PokeRogue.exe filter=lfs diff=lfs merge=lfs -text
